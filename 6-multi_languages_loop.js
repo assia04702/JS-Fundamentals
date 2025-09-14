@@ -1,3 +1,12 @@
+const languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
+let output = ""; // لتجميع جميع الأسطر
+
+for (let i = 0; i < languages.length; i++) {
+  output += languages[i];
+  if (i < languages.length - 1) output += "\n"; // نزيد سطر جديد إلا مازال باقي عناصر
+}
+
+console.log(output);
 // Array of strings
 const languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
